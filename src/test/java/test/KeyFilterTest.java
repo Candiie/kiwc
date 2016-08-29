@@ -27,7 +27,7 @@ public class KeyFilterTest {
         oriList.add("asdasdgSpace asdasdasd");
         
         kf.setRequiredWords(reqWords);
-        kf.setKwickOriList(oriList);
+        kf.setKwicOriList(oriList);
         
         List filterList = kf.filterList();
         
