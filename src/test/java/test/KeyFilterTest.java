@@ -29,7 +29,7 @@ public class KeyFilterTest {
         kf.setRequiredWords(reqWords);
         kf.setKwickOriList(oriList);
         
-        List filterList = kf.filterLists();
+        List filterList = kf.filterList();
         
         
         List outPut = new ArrayList<String>();
